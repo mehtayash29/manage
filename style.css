@@ -1,0 +1,439 @@
+body
+{
+  font-family: "Be Vietnam" !important;
+}
+#tital
+{
+  margin: 2rem 9rem;
+  z-index: 1 ;
+}
+.collapse
+{
+  margin-left: 12rem;
+}
+.nav-link {
+  color: hsl(233, 12%, 13%) !important;
+}
+.nav-link:hover
+{
+  color:hsl(227, 12%, 61%) !important ;
+}
+.btn
+{
+  border-radius: 10rem !important;
+  background-color: hsl(12, 88%, 59%) !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  padding: 7px 25px !important;
+  box-shadow: 2px 2px 10px 0px #888888 !important;
+  margin-right: 1rem;
+}
+#top-left
+{
+  padding-top: 8rem;
+  padding-right: 3rem ;
+}
+#top-left h1
+{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(228, 39%, 23%);
+}
+#top-left p
+{
+  padding:1rem 12rem 1rem 0;
+  color: hsl(227, 12%, 61%);
+}
+#top-right
+{
+  padding: 5rem 0 0 2rem;
+}
+
+
+#middle
+{
+  margin: 5rem 9rem;
+}
+#middle-left
+{
+  padding-right: 5rem ;
+}
+#middle-left h2
+{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: hsl(228, 39%, 23%);
+}
+#middle-left p
+{
+  padding:1rem 12rem 1rem 0;
+  color: hsl(227, 12%, 61%);
+}
+#middle-right
+{
+  padding: 1rem 0 0 8rem;
+}
+.no
+{
+  position: absolute;
+  left: 11%;
+  margin-left: -1.5rem;
+  border-radius: 10rem;
+  background-color: hsl(12, 88%, 59%);
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0.3rem 1.3rem;
+}
+#middle-right h6
+{
+  padding-top: 0.3rem;
+  font-weight: 700;
+  color: hsl(228, 39%, 23%);
+}
+#middle-right p
+{
+  padding:1rem 0rem 2rem 0;
+  color: hsl(227, 12%, 61%);
+}
+
+#carouselExampleIndicators
+{
+  margin-left: 20rem;
+}
+
+.people
+{
+  z-index: -1;
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  width: 60%;
+}
+.carousel-item img
+{
+  width: 7%;
+  z-index: 1;
+  position: absolute;
+  left: 26%;
+
+
+}
+.people h6
+{
+  padding: 5rem 0 2rem;
+  font-weight: 700;
+  color: hsl(228, 39%, 23%);
+
+}
+.people p
+{
+  color: hsl(227, 12%, 61%);
+  padding: 0 3rem 2rem;
+}
+.second h2
+{
+  font-size: 2.8rem ;
+  font-weight: 700 ;
+  color: hsl(228, 39%, 23%);
+  padding: 8rem 24rem
+}
+.second button
+{
+  margin: 3rem 32rem;
+}
+
+#work
+{
+  background-color: hsl(12, 88%, 59%);
+  padding: 5rem 10rem;
+  z-index: -2;
+
+}
+#work h1
+{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color:#fff;
+}
+#work button
+{
+  color: hsl(12, 88%, 59%) !important ;
+  background-color: #fff !important;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  z-index: 1;
+}
+footer
+{
+  color: #fff !important;
+  padding: 5rem 8rem;
+  background-color: hsl(233, 12%, 13%);
+}
+.logo
+{
+  color: #fff;
+  padding-bottom: 6rem;
+ filter: brightness(10);
+}
+#icon
+{
+  padding: 0 5px;
+}
+footer a
+{
+  color: #fff;
+}
+footer input
+{
+  border-radius: 10rem !important;
+  margin-left: -5rem;
+}
+.copy
+{
+  color: hsl(227, 12%, 61%);
+  font-size: 16px;
+  position: absolute;
+  bottom: -2rem;
+}
+.btn:hover
+{
+  background-color: hsl(12, 88%, 75%) !important;
+}
+#work button:hover
+{
+  background-color: hsl(13, 100%, 90%) !important;
+}
+#icon:hover
+{
+  color: hsl(12, 88%, 59%);
+}
+footer a:hover
+{
+  color: hsl(12, 88%, 59%);
+  text-decoration: none;
+}
+.top-pattern
+{
+  position: absolute;
+  left:55%;
+  top: -5%;
+  height: 100%;
+  z-index: -1;
+  content: url("images/bg-tablet-pattern.png");
+}
+.middle-pattern
+{
+  position: absolute;
+  z-index: -1;
+  left: -30%;
+  top: 140%;
+  content: url("images/bg-tablet-pattern.svg");
+}
+.work-pattern
+{
+  position: absolute;
+  top: 273%;
+  left: 7%;
+  opacity: 0.08;
+  filter: brightness(2);
+  content: url("images/bg-tablet-pattern-2.png");
+}
+
+.btn-pattern
+{
+  position: absolute;
+  top: 276%;
+  right: 0%;
+  opacity: 0.08;
+  filter: brightness(2);
+  content: url("images/bg-tablet-pattern-3.png");
+}
+@media (max-width:510px) {
+  body
+  {
+    text-align: center !important;
+  }
+  #tital
+  {
+    margin:0 1rem;
+
+  }
+  .collapse
+  {
+    padding: 2rem 0;
+    margin-left: 0rem;
+    background-color: #fff;
+    box-shadow: 10rem 10rem 100rem 10rem #888888;
+    border-radius: 10px;
+    font-weight: 700 !important;
+  }
+  .collapse button
+  {
+     display: none;
+  }
+  #top-left
+  {
+    padding-top: 28rem;
+    padding-right: 0rem ;
+  }
+
+  #top-left p
+  {
+    padding:1rem 2rem;
+  }
+  #top-right img
+  {
+    padding: 7rem 0 0 1rem;
+    width: 97%;
+    position: absolute;
+    bottom: 590%;
+    left: 0;
+  }
+
+
+  #middle
+  {
+    margin: 5rem 2rem;
+  }
+  #middle-left
+  {
+    padding-right: 0rem ;
+  }
+
+  #middle-left p
+  {
+    padding:1rem 2rem;
+
+  }
+  #middle-right
+  {
+    padding: 1rem 0 0 2rem;
+  }
+
+  #middle-right h6
+  {
+    height: 2rem;
+    background-color: hsl(13, 100%, 96%);
+  }
+
+  #carouselExampleIndicators
+  {
+    margin-left: 0rem;
+  }
+  .people
+  {
+    width: 100%;
+  }
+  .carousel-item img
+  {
+    width: 15%;
+    left: 42%;
+  }
+
+  .second h2
+  {
+    padding: 5rem 2rem
+  }
+  .second button
+  {
+    margin: 3rem 2rem;
+  }
+
+  #work
+  {
+    padding: 5rem 2rem 5rem;
+  }
+  #work h1
+  {
+    padding:1rem 0 4rem;
+  }
+  #work button
+  {
+    position: absolute;
+    left: 35%;
+  }
+  .logo
+  {
+    position: absolute;
+    left: 4rem;
+    top: 20rem;
+  }
+  .icons
+  {
+    position: absolute;
+    left: 3rem;
+    top: 16rem;
+  }
+
+  footer
+  {
+      padding: 5rem 8rem 20rem;
+  }
+  #col-1
+  {
+    position: relative;
+    top: 3rem;
+    right: 3rem;
+  }
+  #col-2
+  {
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+  }
+  footer input
+  {
+    position: absolute;
+    bottom: 10rem;
+    margin-left: -4rem;
+  }
+  footer button
+  {
+    position: absolute;
+    bottom: 9.5rem;
+    left: 14rem;
+  }
+  .copy
+  {
+    position: absolute;
+    top: 15rem;
+  }
+  .top-pattern
+  {
+    position: absolute;
+    left:20%;
+    top: -5%;
+    width: 80%;
+    height: 55%;
+    z-index: -1;
+
+  }
+  .middle-pattern
+  {
+    position: absolute;
+    z-index: -1;
+    width: 85%;
+    height: 55%;
+    left: 65%;
+    top: 83%;
+  }
+  .work-pattern
+  {
+
+    width: 100%;
+    position: absolute;
+    top: 370%;
+    left: -75%;
+    opacity:0.08;
+    content: url("images/bg-tablet-pattern-1.png");
+
+  }
+  .btn-pattern
+  {
+    content: url("");
+  }
+
+
+
+}
