@@ -249,7 +249,7 @@ footer a:hover
   filter: brightness(2);
   content: url("images/bg-tablet-pattern-3.png");
 }
-@media (max-width:510px) {
+@media (max-width:1000px) {
   body
   {
     text-align: center !important;
